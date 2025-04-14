@@ -15,4 +15,10 @@ dependencies:
   - netcdf4
   - pandas
   - matplotlib
-  - cmocean
+  - statsmodels
+  - plotly
+  - pip:
+    - cmocean
+    - python-dotenv
+    - mkdocs
+    - -e .

@@ -10,3 +10,6 @@ Repository with Jupyter Notebooks to request data and create visualizations with
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://github.com/jbusecke/cookiecutter-science-project">cookiecutter science project template</a>.</small></p>
+
+Note: If making use of Jupyter Notebooks or the OOI JupyterHub for data exploration and analysis as demonstrated in this repo, following installation and activating the environment, you will need to execute the following code to be able to select the environment as your notebook's kernel:
+"""python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
