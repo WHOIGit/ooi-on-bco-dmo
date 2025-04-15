@@ -17,14 +17,10 @@ The Biological and Chemical Oceanography - Data Management Office (BCO-DMO) spec
 The analysis of collected water samples for the parameters listed above are performed by a number of outside labs on behalf oOOISN. Consequently, the water sampling data for a given cruise is distributed among a number of different files. The Discrete Sampling Summary integrates the related CTD, metadata, and discrete water sample data into a single file. Additionally, it synthesizes qualitative and quantitative information about the quality of a measurement into data quality flags for each associated parameter which follow WOCE-standard
  The final product is the Discrete Sampling Summary spreadsheet which contains the metadata, CTD data, and discrete water sample data into a single spreadsheet with data quality flag.
 
-O).
+O).---
+></p>
 
---
+Note: If making use of Jupyter Notebooks or the [OOI JupyterHub](https://jupyter.oceanobservatories.org/) for data exploration and analysis as demonstrated in this repo, following installation and activating the environment, you will need to execute the following code to be able to select the environment as your no\tebook's k
 
-----
-
-<p><small>Project based on the <a target="_blank" href="https://github.com/jbusecke/cookiecutter-science-project">cookiecutter science project template</a>.</small></p>
-
-Note: If making use of Jupyter Notebooks or the [OOI JupyterHub](https://jupyter.oceanobservatories.org/) for data exploration and analysis as demonstrated in this repo, following installation and activating the environment, you will need to execute the following code to be able to select the environment as your notebook's k
 e```l:
 """python -m ipykernel install --user --name myenv --display-name "Python (my```)" """
