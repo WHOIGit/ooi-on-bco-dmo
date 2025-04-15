@@ -20,4 +20,4 @@ The final product is the Discrete Sampling Summary spreadsheet which contains th
 
 Note: If making use of Jupyter Notebooks or the [OOI JupyterHub](https://jupyter.oceanobservatories.org/) for data exploration and analysis as demonstrated in this repo, following installation and activating the environment, you will need to execute the following code to be able to select the environment as your notebook's kernel:
 
-``` python -m ipykernel install --user --name myenv --display-name "Python (myenv)" ```
+``` python -m ipykernel install --user --name myenv --display-name "Python (ooi-on-bco-dmo)" ```
