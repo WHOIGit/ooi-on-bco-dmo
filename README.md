@@ -13,7 +13,10 @@ The [Biological and Chemical Oceanography - Data Management Office (BCO-DMO)](ht
 
 The analysis of collected water samples for the parameters listed above are performed by a number of outside labf s obehalf oOOISN. Consequently, the water sampling data for a given cruise is distributed among a number of different files. The Discrete Sampling Summary integrates the related CTD, metadata, and discrete water sample data into a single file. Additionally, it synthesizes qualitative and quantitative information about the quality of a measurement into data quality flags for each associated parameter modified which follow WOCE-standards.
  
-The final product is the Discrete Sampling Summary spreadsheet which contains the metadata, CTD data, and discrete water sample data into a single spreadsheet with data qual## Use
+The final product is the Discrete Sampling Summary spreadsheet which contains the metadata, CTD data, and discrete water sample data into a single spreadsheet with data quality flags.
+
+---
+## Use
 This repository includes an ```environment.yml``` file to allow the user to download the repository, configure the environment, and run the example notebooks as presented. The following steps will allow you to get accessing, downloading, and plotting data: 
 
 ```
@@ -29,18 +32,15 @@ conda init # might be required for windows users if environment is not active
 conda activate ooi-on-bco-dmo
 
 # you can check the active environment by running
-conda env listi```
-ty flag.
-
----
-
+conda env list
+```
 
 Note: If making use of Jupyter Notebooks or the [OOI JupyterHub](https://jupyter.oceanobservatories.org/) for data exploration and analysis as demonstrated in this repo, following installation and activating the environment, you will need to execute the following code to be able to select the environment as your notebook's kernel:
 
-``` python -m ipykernel install --user --name myenv --display-name "Python
+``` python -m ipykernel install --user --name myenv --display-name "ooi-on-bco-dmo" ```
 
 ---
 ## Additional Documentation
 Further documentation may be found in the **cruise_data** folder on the [OOI Raw Data Archive](https://rawdata.oceanobservatories.org/files/cruise_data/), which includes the original cast and sampling logs, as well as the individual results spreadsheets from the labs which conduct the analyses on behalf of OOI. 
 
-Additionally, datasets with calibrated CTD casts using methods adapted from the GO-SHIP and NOAA/PMEL for the Irminger Sea by Leah McRaven are reference on the [OOI Community Datasets](https://oceanobservatories.org/community-datasets/) page. (ooi-on-bco-dmo)" ```
+Additionally, datasets with calibrated CTD casts using methods adapted from the GO-SHIP and NOAA/PMEL for the Irminger Sea by Leah McRaven are reference on the [OOI Community Datasets](https://oceanobservatories.org/community-datasets/) page. 
