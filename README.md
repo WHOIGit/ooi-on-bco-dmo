@@ -3,7 +3,7 @@ OOI-on-BCO-DMO
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
 ## Overview
-The NSF Ocean Observatories Initiative (OOI) provides Discrete CTD and Water Sampling Cruise Data for each Array as a dataset in the Biological and Chemical Oceanography Data Management Office (BCO-DMO). This repository includes Jupyter Notebooks to request data and create visualizations with OOI Discrete CTD and Water Sampling Cruise Data in BCO-DMO, in particular to plot Oxygen, Salinity, and Nitrate data from the Global Irminger Sea Array from 2014-2023 2023 ([doi:10.26008/1912/bco-dmo.911407.1](https://www.bco-dmo.org/dataset/91DMO).
+The NSF Ocean Observatories Initiative (OOI) provides Discrete CTD and Water Sampling Cruise Data for each Array as a dataset in the Biological and Chemical Oceanography Data Management Office (BCO-DMO). This repository includes Jupyter Notebooks to request data and create visualizations with OOI Discrete CTD and Water Sampling Cruise Data in BCO-DMO, in particular to plot Oxygen, Salinity, and Nitrate data from the Global Irminger Sea Array from 2014-2023 2023 ([doi:10.26008/1912/bco-dmo.911407.1](https://www.bco-dmo.org/dataset/91DMO)).
 
 
 ## Background
